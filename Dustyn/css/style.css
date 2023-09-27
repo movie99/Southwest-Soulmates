@@ -1,0 +1,33 @@
+
+    .jumbotron {
+      padding: 50px;
+      /* Adjust this value to control the header height */
+    }
+
+    .navbar {
+      margin-bottom: 0;
+      /* Remove the default margin to place the navbar at the top */
+    }
+
+    .navbar-nav {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      /* Align items to the bottom of the navbar */
+      height: 100px;
+      /* Set the height of the navbar to control the position of the links */
+    }
+
+    .navbar-nav li {
+      margin: 0 15px;
+      /* Adjust the spacing between links */
+    }
+
+    /* Style for the floating button */
+    .floating-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+      /* Ensure it's above other content */
+    }
