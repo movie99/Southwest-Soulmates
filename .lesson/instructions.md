@@ -4,6 +4,9 @@
 
   _ students will see these instructions in a read-only workspace tab _
 
+  ## steps to push to gi 
+  ## git push --set-upstream origin main
+
   ## Steps
   1. 
   2. 
