@@ -181,5 +181,5 @@ pattern = "**/{*.less,*.scss,*.css}"
 requiredFiles = [".replit", "replit.nix", ".config"]
 
 [auth]
-pageEnabled = true
+pageEnabled = false
 buttonEnabled = false
