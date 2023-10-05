@@ -2,65 +2,65 @@
 <html lang="en">
 
 <head>
-  <title>Southwest Soulmates</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  <!-- Main CSS File -->
-  <link href="/style.css" rel="stylesheet">
+  <!-- ... (your existing meta tags and links) ... -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+  
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body>
+  
+<header>
+        <p>SW Soulmates  </p>
+        <img src="/images/FullLogo.jpg" alt="Header Image" class="header-image">
+  
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/../#about">HOME</a></li>
+            </ul>
+  
+        <!-- Replace "your-image-url.jpg" with the URL of your image -->
+        <div class="right-text">
+            <h1>CHAT</h1>
+        </div>
+</header>
 
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <img src="/images/FullLogo.jpg" height="50">
-        <a class="navbar-brand">SW Soulmates</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/../#about">ABOUT</a></li>
-          <li><a href="/../#services">SERVICES</a></li>
-          <li><a href="/../.#portfolio">STORIES</a></li>
-          <li><a href="/../#pricing">PRICING</a></li>
-          <li><a href="/../#contact">CONTACT</a></li>
-          <li><a href="/Emily/login_create.html">LOGIN</a></li>
-          <li><a href="/Dustyn/account.html">ACCOUNT</a></li>
-          <li><a href="/alex/chat.html">CHAT</a></li>
+  <main>
+    <div class="chat-container">
+      <div class="chat-sidebar">
+        <ul class="contact-list">
+          <li class="contact">
+            Contact 1
+            <button class="contact-button">call</button>
+          </li>
+          <li class="contact">
+            Contact 2
+            <button class="contact-button">call</button>
+          </li>
         </ul>
       </div>
+
+      <div class="chat-content">
+        <!-- <div class="chat-header">
+          <h2>Chat with Contact</h2>
+        </div> -->
+
+        <div class="message-container">
+          <div class="message incoming">
+            <p>Hi there!</p>
+          </div>
+          <div class="message outgoing">
+            <p>Hello!</p>
+          </div>
+        </div>
+        <div class="message-input">
+          <input type="text" id="messageInput" placeholder="Type your message...">
+          <button id="sendButton">Send</button>
+        </div>
+      </div>
     </div>
-  </nav>
+  </main>
 
-  <!-- Add a top margin to push down the content below the fixed header -->
-  <div id="about" class="container-fluid" style="margin-top: 80px;">
-    <h2> this is chat website</h2>
-    <!-- ... (your about section content) ... -->
-  </div>
-
-  <!-- ... (your existing script tag and closing body/html tags) ... -->
-
-
+  <script src="js/send_message.js"></script>
   <script src="js/script.js"></script>
 
 </body>

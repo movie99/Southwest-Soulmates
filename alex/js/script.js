@@ -4,14 +4,13 @@ console.log("Changes my dudes")
 
 
 const apiUrl = 'https://teamserver.alexhernandez11.repl.co/user_info';
-
 // Data to send in the POST request
 const postData = {
   //password: 'secret',
   //ip: 'exampleIP',
   //port: 'examplePort',
-  user_name: "alex23",
-  hobbies: "love to play video games",
+  user_name: "kik",
+  hobbies: "love to play video play football",
   age: 21,
   height: 5.5,
 

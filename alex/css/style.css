@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #d70909;
+  color: #f7f7f7;
+  text-align: center;
+  padding: 20px;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly in the header */
+  align-items: center; /* Vertically align items in the center */
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+/* Style for the image on the left side of the header */
+.header-image {
+    max-width: 50px; /* Set a maximum width for the image */
+}
+
+/* Style for the text on the right side of the header */
+.right-text {
+    flex: 1; /* Take up available space in the header */
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px; /* Add padding to create space for the header */
+}
+
+.chat-container {
+  display: flex;
+  width: 100%;
+}
+
+.chat-sidebar {
+  width: 20%;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.chat-content {
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-container {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.message-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact-button {
+  background-color: #f77d27; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin-left: 10px; /* Add some spacing between the text and the button */
+  cursor: pointer;
+}
+
+
+        /* Style for the text link */
+        .navbar-nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-nav li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .navbar-nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .navbar-nav a:hover {
+            color: #d70909; /* Change color on hover */
+        }

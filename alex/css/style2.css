@@ -1,0 +1,128 @@
+ /* Reset some default styles */
+ body,
+ h1,
+ ul,
+ li,
+ p {
+   margin: 0;
+   padding: 0;
+ }
+
+ /* Basic styling */
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #d70909;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+ }
+
+ header {
+   background-color: #d70909;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   /* Increased header padding */
+ }
+
+ main {
+   flex: 1;
+   /* Take up available vertical space */
+   display: flex;
+   flex-direction: column;
+   /* Stack children vertically */
+   margin-top: 10px;
+ }
+
+ .chat-container {
+   flex: 1;
+   /* Take up available horizontal space */
+   display: flex;
+   /* Removed border and box-shadow for simplicity */
+ }
+
+ .chat-sidebar {
+   flex: 1;
+   padding: 10px;
+   border-right: 1px solid #f4ed99;
+   background-color:  #ffffff;
+ }
+
+ .contact-list {
+   list-style: none;
+ }
+
+ .contact {
+   padding: 10px;
+   cursor: pointer;
+ }
+
+ .contact:hover {
+   background-color: #f0f0f0;
+ }
+
+ .chat-content {
+   flex: 2;
+   /* Take up more horizontal space */
+   display: flex;
+   flex-direction: column;
+   /* Stack children vertically */
+ }
+
+ .chat-header {
+   background-color: #d70909;
+   color: white;
+   text-align: center;
+   padding: 5px;
+   /* Increased header padding */
+ }
+
+ .message-container {
+   flex: 1;
+   padding: 10px;
+   overflow-y: scroll;
+ }
+
+ .message {
+   max-width: 70%;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+ }
+
+ .incoming {
+   background-color: #eee159;
+ }
+
+ .outgoing {
+   background-color: #d70909;
+   color: white;
+ }
+
+ .message-input {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   border-top: 1px solid #ccc;
+ }
+
+ input[type="text"] {
+   flex: 2;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+ }
+
+ button {
+   padding: 10px 20px;
+   background-color: #d70909;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+ button:hover {
+   background-color: #d70909;
+ }
