@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Google Fonts --> 
+  <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
@@ -19,6 +19,7 @@
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 
   <!-- Main CSS File -->
   <link href="style.css" rel="stylesheet">
@@ -77,7 +78,7 @@
           us in this journey of discovery, where lasting connections are forged under the boundless skies of the
           Southwest.</h4><br>
 
-        <br><button class="btn btn-default btn-lg">Get in Touch</button>
+        <br><a href="#contact"><button class="btn btn-default btn-lg">Get in Touch</button></a>
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-star logo"></span>
@@ -250,16 +251,16 @@
             <h1>Monthly</h1>
           </div>
           <div class="panel-body">
-            <p><strong>20</strong> Option</p>
-            <p><strong>15</strong> Option</p>
-            <p><strong>5</strong> Option</p>
-            <p><strong>2</strong> Option</p>
-            <p><strong>100</strong> Matches</p>
+            <p>Month to Month</p>
+            <p><strong>No Committment</strong></p>
+            <p><strong>Cancel</strong> Anytime</p>
+            <p><strong>Unlimited</strong> Chatting</p>
+            <p><strong>Unlimited</strong> Matches</p>
           </div>
           <div class="panel-footer">
             <h3>$15</h3>
             <h4>per month</h4>
-            <button class="btn btn-lg">Sign Up</button>
+            <a href="Dustyn/account.html"><button class="btn btn-lg">Sign Up</button></a>
           </div>
         </div>
       </div>
@@ -269,16 +270,16 @@
             <h1>3 Month</h1>
           </div>
           <div class="panel-body">
-            <p><strong>50</strong> Option</p>
-            <p><strong>25</strong> Option</p>
-            <p><strong>10</strong> Option</p>
-            <p><strong>5</strong> Option</p>
+            <p><strong>3 Month</strong> Committment</p>
+            <p>Cancel after 3 months</p>
+            <p>More chances to connect!</p>
+            <p><strong>Unlimited</strong> Chatting</p>
             <p><strong>Unlimited</strong> Matches</p>
           </div>
           <div class="panel-footer">
             <h3>$10</h3>
             <h4>per month</h4>
-            <button class="btn btn-lg">Sign Up</button>
+            <a href="Dustyn/account.html"><button class="btn btn-lg">Sign Up</button></a>
           </div>
         </div>
       </div>
@@ -288,16 +289,16 @@
             <h1>6 Month</h1>
           </div>
           <div class="panel-body">
-            <p><strong>100</strong> Option</p>
-            <p><strong>50</strong> Option</p>
-            <p><strong>25</strong> Option</p>
-            <p><strong>10</strong> Option</p>
+            <p><strong>6 Month</strong> Committment</p>
+            <p><strong>BEST</strong> price</p>
+            <p>Cancel after 6 months</p>
+            <p><strong>Unlimited</strong> chatting</p>
             <p><strong>Unlimited</strong> Matches</p>
           </div>
           <div class="panel-footer">
             <h3>$5</h3>
             <h4>per month</h4>
-            <button class="btn btn-lg">Sign Up</button>
+            <a href="Dustyn/account.html"><button class="btn btn-lg">Sign Up</button></a>
           </div>
         </div>
       </div>
@@ -306,35 +307,36 @@
 
   <!-- Container (Contact Section) -->
   <div id="contact" class="container-fluid bg-grey">
-    <h2 class="text-center">CONTACT</h2>
-    <div class="row">
-      <div class="col-sm-5">
-        <p>Contact us and we'll get back to you within 24 hours.</p>
-        <p><span class="glyphicon glyphicon-map-marker"></span> Las Cruces, NM 88001</p>
-        <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-        <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
-      </div>
-      <div class="col-sm-7 slideanim">
-        <div class="row">
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+    <form action="/contact_form.php" method="POST" class"style">
+      <h2 class="text-center">CONTACT</h2>
+      <div class="row">
+        <div class="col-sm-5">
+          <p>Contact us and we'll get back to you within 24 hours.</p>
+          <p><span class="glyphicon glyphicon-map-marker"></span> Las Cruces, NM 88001</p>
+          <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+          <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+        </div>
+        <div class="col-sm-7 slideanim">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
           </div>
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea><br>
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button type="submit" class="btn btn-default btn-lg">Submit</button>
+            </div>
           </div>
         </div>
-        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-        <div class="row">
-          <div class="col-sm-12 form-group">
-            <button class="btn btn-default pull-right" type="submit">Send</button>
-          </div>
-        </div>
       </div>
-    </div>
   </div>
 
   <!-- Image of location/map -->
-  <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+  <!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"> -->
 
   <footer class="container-fluid text-center">
     <a href="#myPage" title="To Top">
