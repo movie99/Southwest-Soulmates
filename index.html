@@ -23,6 +23,8 @@
 
   <!-- Main CSS File -->
   <link href="style.css" rel="stylesheet">
+
+
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -55,14 +57,7 @@
   <div class="jumbotron text-center">
     <h1><img src="images/FullLogo.jpg" height="" width="400"></h1>
     <p>From Sand to Soul: Finding Forever in the Southwest</p>
-    <form>
-      <div class="input-group">
-        <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-        <div class="input-group-btn">
-          <button type="button" class="btn btn-danger">Subscribe</button>
-        </div>
-      </div>
-    </form>
+
   </div>
 
   <!-- Container (About Section) -->
@@ -130,41 +125,200 @@
   <!-- Container (Services Section) -->
   <div id="services" class="container-fluid text-center">
     <h2>Why Us?</h2>
-    <h4>Southwest Soulmates Super Powers</h4>
+    <h4>Southwest Soulmates Super Powers - Click to learn more!</h4>
     <br>
     <div class="row slideanim">
       <div class="col-sm-4">
+
         <span class="glyphicon glyphicon-grain logo-small"></span>
         <h4>SIMPLE</h4>
-        <p>Simple to use</p>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#simple">Simple to
+          Use</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="simple" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Simple to use</h4>
+              </div>
+              <div class="modal-body" id="simple">
+                <p>Navigating Southwest Soulmates is like a refreshing breeze on a warm desert day. Our platform is
+                  designed with simplicity in mind, ensuring that every user, from tech novices to seasoned digital
+                  explorers, feels right at home. The intuitive layout and clear, concise menus make finding your way
+                  around a breeze.</p>
+                <a data-dismiss="modal" data-toggle="modal" href="#"></a>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
+
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-education logo-small"></span>
         <h4>SMART</h4>
-        <p>Smart Matching</p>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#smart">Smart
+          Matching</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="smart" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Smart Matching</h4>
+              </div>
+              <div class="modal-body">
+                <p>Behind the scenes, our sophisticated matchmaking algorithms work tirelessly to connect you with
+                  individuals who resonate with your unique interests, values, and aspirations. This smart technology
+                  learns from your interactions, continuously refining its suggestions to ensure your matches are not
+                  only relevant but also potentially life-changing.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
+
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-lock logo-small"></span>
         <h4>FILTER</h4>
-        <p>Filter Very Fast</p>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#filter">Precise
+          Filtering</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="filter" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Precise Filtering</h4>
+              </div>
+              <div class="modal-body">
+                <p>Your journey to find a soulmate is as unique as you are, and our robust filter system reflects this.
+                  Search by location, interests, lifestyle, and more, effortlessly narrowing down potential matches.
+                  Whether you're an avid hiker or a salsa-dancing aficionado, we've got the filters to help you find
+                  your kindred spirit.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
+
     </div>
+
     <br><br>
     <div class="row slideanim">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-leaf logo-small"></span>
         <h4>COOL</h4>
-        <p>Cool Community</p>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cool">Cool
+          Connections</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="cool" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Cool Connections</h4>
+              </div>
+              <div class="modal-body">
+                <p>Southwest Soulmates radiates a cool, contemporary vibe that mirrors the energy of the vibrant
+                  Southwest itself. From sleek, modern design elements to easy-to-use chat features, every aspect is
+                  curated for an experience that feels both chic and connected.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-certificate logo-small"></span>
         <h4>HAPPY</h4>
-        <p>Happy Customers</p>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#happy">Happiness</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="happy" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Happiness</h4>
+              </div>
+              <div class="modal-body">
+                <p>Finding love should be a joyful experience, and Southwest Soulmates infuses every interaction with
+                  that exuberant spirit. Engage with potential matches, share your experiences, and revel in the
+                  excitement of new connections. Our platform is a space where happiness radiates from every corner.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-sunglasses logo-small"></span>
-        <h4 style="color:#303030;">FUN</h4>
-        <p>Fun</p>
+        <h4>FUN</h4>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#fun">Fun</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="fun" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Fun</h4>
+              </div>
+              <div class="modal-body">
+                <p>Dating is not just about finding 'the one'; it's about enjoying the journey. Southwest Soulmates
+                  injects a dose of entertainment into the experience. Engage with quizzes, icebreakers, and even themed
+                  events that add an element of playfulness to your interactions.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
     </div>
   </div>
@@ -176,22 +330,22 @@
     <div class="row text-center slideanim">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="paris.jpg" alt="Paris" width="400" height="300">
+          <img src="images/preview16.jpg" alt="Couple 3" width="400" height="300">
           <p><strong>Ron & Emily</strong></p>
           <p>Dating 1 year</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="newyork.jpg" alt="New York" width="400" height="300">
+          <img src="images/download.jpg" alt="Couple 2" width="400" height="300">
           <p><strong>Joe & Joy</strong></p>
           <p>Engaged</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-          <p><strong>Brad & Brian</strong></p>
+          <img src="images/datingimg2.jpg" alt="Couple 1" width="400" height="300">
+          <p><strong>Brad & Brianna</strong></p>
           <p>Married 6 months</p>
         </div>
       </div>
@@ -307,7 +461,7 @@
 
   <!-- Container (Contact Section) -->
   <div id="contact" class="container-fluid bg-grey">
-    <form action="/contact_form.php" method="POST" class"style">
+    <form action="/contact_form.php" method="POST" class="style">
       <h2 class="text-center">CONTACT</h2>
       <div class="row">
         <div class="col-sm-5">
@@ -334,6 +488,21 @@
         </div>
       </div>
   </div>
+  <div id="newsletter" class="container-fluid">
+    <form action="/newsletter.php" method="POST" class"style">
+      <div class="text-center">
+        <h2>Signup for our Newsletter</h2>
+
+        <div class="input-group">
+          <input type="email" class="form-control" nam="email" id="email" size="50" placeholder="Email Address"
+            required>
+          <div class="input-group-btn">
+            <button type="submit" class="btn btn-danger">Subscribe</button>
+          </div>
+        </div>
+      </div>
+  </div>
+
 
   <!-- Image of location/map -->
   <!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"> -->

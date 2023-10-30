@@ -40,3 +40,5 @@ fetch(apiUrl, requestOptions)
   .catch(error => {
     console.error('Error:', error); // Handle any errors that occur during the fetch request
   });
+
+

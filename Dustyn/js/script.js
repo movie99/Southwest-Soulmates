@@ -62,3 +62,13 @@ fetch(apiUrl, requestOptions)
   .catch(error => {
     console.error('Error:', error); // Handle any errors that occur during the fetch request
   });
+const subscriptionRadios = document.querySelectorAll('input[name="subscription"]');
+subscriptionRadios.forEach(radio => {
+    radio.addEventListener('change', (event) => {
+        const selectedSubscription = event.target.value;
+        // Hide all benefits paragraphs
+        document.querySelectorAll('.subscription-benefits p').forEach(p => {
+            p.style.display = 'none';
+        });
+    });
+});

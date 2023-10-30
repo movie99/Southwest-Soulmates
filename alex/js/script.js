@@ -9,8 +9,8 @@ const postData = {
   //password: 'secret',
   //ip: 'exampleIP',
   //port: 'examplePort',
-  user_name: "kik",
-  hobbies: "love to play video play football",
+  user_name: "alex hernandez",
+  hobbies: "love to play video play football and more",
   age: 21,
   height: 5.5,
 

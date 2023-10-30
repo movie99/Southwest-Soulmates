@@ -15,7 +15,7 @@ $txt ="Name = ". $name . "\r\n  Email = "
     . $email . "\r\n Message =" . $message;
  
 $headers = "From: noreply@demosite.com" . "\r\n" .
-            "CC: annaball85@gmail.com";
+            "CC: somebodyelse@example.com";
 if($email != NULL) {
     mail($to, $subject, $txt, $headers);
 }
@@ -24,5 +24,5 @@ if($email != NULL) {
     Thank you for contacting us. We will be in touch with you very soon.  Return to <a href="index.html">Home Page</a>
 
 <?php
-}
+
 ?>

@@ -182,4 +182,4 @@ requiredFiles = [".replit", "replit.nix", ".config"]
 
 [auth]
 pageEnabled = false
-buttonEnabled = false
+buttonEnabled = true

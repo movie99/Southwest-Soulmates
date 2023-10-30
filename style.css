@@ -129,6 +129,25 @@ h4 {
   color: #fff;
 }
 
+.modal-dialog {
+    margin: 20vh auto 0px auto
+}
+
+.btn-info {
+  color:#fff;
+  background-color:#d70909;
+  border-color:#ea8ad5;
+}
+.btn-info:focus {
+  color:#fff;
+  background-color:#d70909;
+  border-color:#ea8ad5;
+}
+.btn-info:hover {
+  color:#fff;
+  background-color:#df7c7c;
+  border-color:#ea8ad5;
+}
 .navbar {
   margin-bottom: 0;
   background-color: #d70909;
